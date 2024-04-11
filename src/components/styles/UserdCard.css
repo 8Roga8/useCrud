@@ -1,0 +1,51 @@
+.card {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 0.4em;
+    border: solid #0002;
+    padding: 2em;
+}
+
+.card_name {
+    color: #2b326b;
+    font-size: 28px;
+    font-weight: 700;
+    margin-left: 0.2em;
+    margin-bottom: 0.3em;
+}
+
+.card_list {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    gap: 0.5em;
+    font-size: 17px;
+}
+
+.card_span {
+    color: #0004;
+    font-weight: 700;
+}
+
+.card_btn {
+    display: flex;
+    padding-left: 67%;
+    gap: 0.5em;
+    margin-top: 0.5em;
+}
+
+.card_delete {
+    color: white;
+    border: #0002;
+    background-color: #D85D5D;
+}
+.card_edit {
+    color: black;
+    border: #0002;
+    background-color: #F6F6F6;
+}
+
+.card_hr {
+    border-color: #0001;
+    width: 100%;
+}
