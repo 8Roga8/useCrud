@@ -10,7 +10,7 @@ function App() {
   const [userEdit, setUserEdit] = useState()
   const [formClose, setFormClose] = useState(true)
 
-  const BASEURL = 'https://users-crud.academlo.tech'
+  const BASEURL = 'https://usercrud-back.onrender.com'
 
   const [users, getUsers, createUsers, deleteUsers, updateUsers] = useCrud(BASEURL)
 
